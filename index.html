@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Задание скучающим">
+  <meta name="keywords" content="мини игра react">
+  <meta name="author" content="Портнягин Андрей">
+</head>
+<body class="root">
+  <header class="header">
+  </header>
+  <main class="content"> 
+    <div class="content__title"><h1>что-то типа игра Карточки</h1></div>
+    <form class="setting">
+      <label for="setting__column">Введите кол-во столбцов</label>
+      <input type="number" id="setting__column" class="setting__input" min="2" max="10" name="setting__column" value="4" placeholder="Столбцы"></input>
+      <label for="setting__row">Введите кол-во строк</label>
+      <input type="number" id="setting__row" class="setting__input" min="1" max="10" name="setting__row" value="4" placeholder="Строки"></input>
+      <button type="button" class="setting__button">Создать</button> 
+    </form>
+    <div class="game">
+    </div>
+  </main>
+  <footer>
+  
+  </footer>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="index.js"></script>
+</body>
+</html>
